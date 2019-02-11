@@ -1,0 +1,11 @@
+ void setup() {
+  pinMode(13,OUTPUT);   //define the mode of the using pin//
+                        //define the pin number also//
+}
+
+void loop() {
+  digitalWrite(13,HIGH);    //light on//
+  delay(400);           //on for the 400milisecond//
+  digitalWrite(13,LOW);     //light off//
+  delay(400);          //off for the 400miliseconds//
+}
