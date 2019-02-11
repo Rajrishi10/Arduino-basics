@@ -1,0 +1,13 @@
+#define Ledpin 13           //when you define the ledpin by #define, you can't change it in the code//
+#define delaYperiod 400     
+
+void setup() {
+  pinMode(Ledpin,OUTPUT);   //define the mode of the using pin//
+}
+
+void loop() {
+  digitalWrite(Ledpin,HIGH);    //light on//
+  delay(delaYperiod);           //on for the 400milisecond//
+  digitalWrite(Ledpin,LOW);     //light off//
+  delay(delaYperiod);          //off for the 400miliseconds//
+}
